@@ -4,7 +4,7 @@ import requests
 import json
 
 def makeChoice():
-    user_song = raw_input("What song would you like to search?")
+    user_song = raw_input("What song would you like to search? (type quit to exit)")
     user_song = user_song.strip()
     user_song = user_song.replace(" ", "+")
     return user_song
